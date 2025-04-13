@@ -1,85 +1,103 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-  <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Satya Sai Portfolio</title>
+  <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-  <div class="header">
-      <div class="header-left">
-        <img src="images/—Pngtree—wolf logo_2306634.png" class="logo">
-        <h2>Logo</h2>
-      </div>
-      <div class="header-right">
-        <nav class="ser">Home</nav>
-        <nav class="ser">Content</nav>
-        <nav class="ser">Services</nav>
-      </div>
-  </div>
-  <div class="home">
-      <div class="home-left">
-       <p>
-        "Hello,This is Satya Sai Tamanara, and I am currently pursuing my first year of MCA at Adikavi Nannaya University. I have completed my Bachelor's degree in Computer Science from SV Degree College with a CGPA of 9.0. Before that, I completed my Intermediate MPC at SV Junior College, scoring 906 marks.
-        
-        I am passionate about technology and actively developing my skills in web development, Python, and artificial intelligence. I consider myself a quick learner, always eager to explore new concepts and enhance my knowledge.
-        
-        I am looking forward to opportunities that allow me to apply my skills, contribute to meaningful projects, and grow as a professional in the tech industry</p>
-
-      </div>
-      <div class="home-right">
-       <img src="images/websitephoto.jpeg" class="photo">
-      </div>
-
-  </div>
-  <div class="services" >
-    <h2 class="SERVICES">SERVICES PROVIDED
-    </h2>
-  
-      
-    <div class="services-list" >
-      
-          <div class="services-1">
-                    
-            <p>
-              I create high-quality websites. If anyone is interested, feel free to contact me.
-            </p>   
-      </div>
-      <div class="services-1">
-        <p>
-          I create high-quality photoshop edits. If anyone is interested, feel free to contact me.
-        </p>  
-      </div>
-      <div class="services-1">
-        <p>I create high-quality ppt projects. If anyone is interested, feel free to contact me.</p>
-  </div>
+  <header class="header">
+    <div class="header-left">
+      <img src="images/—Pngtree—wolf logo_2306634.png" class="logo" alt="Logo" />
+      <h2>Satya Sai</h2>
     </div>
-  
+    <nav class="header-right">
+      <a class="ser" href="#home">Home</a>
+      <a class="ser" href="#about">About</a>
+      <a class="ser" href="#projects">Projects</a>
+      <a class="ser" href="#skills">Skills</a>
+      <a class="ser" href="#services">Services</a>
+      <a class="ser" href="#contact">Contact</a>
+    </nav>
+  </header>
 
-  </div>
-  <div class="footer">
-        <div>TAMANARA SATYA SAI</div>
-        <div>Ph:6302610126</div>
-        <div>email:tamanarasatyasai@gmail.com
-        </div>
-        <div class="footer-ser">
-          <div>
-            <a href=""><img src="images/facebook.png"  alt="facebook" class="footer-ser1">
-            </div></a>
-          <div>
-            <a href="https://www.instagram.com/uniqueboy__sai/">
-              <img src="images/instagram1.jpg" class="footer-ser1">
-            </a>
-            
-          </div>
-          <div >
-            <a href="https://web.whatsapp.com/">
-              <img src="images/whatsapp.jpg" class="footer-ser1">
-            </a>
-          
-          </div>
-     </div>
-  </div>
+  <section id="home" class="home">
+    <div class="home-left">
+      <p>
+        Hello, I am <strong>Satya Sai Tamanara</strong>, a passionate MCA student and web developer with interests in AI and Python.
+      </p>
+    </div>
+    <div class="home-right">
+      <img src="images/websitephoto.jpeg" class="photo" alt="Satya Sai" />
+    </div>
+  </section>
+
+  <section id="about" class="about">
+    <h2>About Me</h2>
+    <p>
+      I'm currently pursuing MCA 1st year at Adikavi Nannaya University. I completed my B.Sc in Computer Science with a CGPA of 9.0 and scored 906 marks in Intermediate MPC. I'm a quick learner, always eager to grow.
+    </p>
+  </section>
+
+  <section id="projects" class="projects">
+    <h2>My Projects</h2>
+    <div class="project-list">
+      <div class="project-card">
+        <h3>College Class Website</h3>
+        <p>A website for displaying student info, attendance, and roll numbers.</p>
+      </div>
+      <!-- Add more project cards here -->
+    </div>
+  </section>
+
+  <section id="skills" class="skills">
+    <h2>Skills</h2>
+    <ul>
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>JavaScript</li>
+      <li>Python</li>
+      <li>Photoshop</li>
+      <li>AI Basics</li>
+    </ul>
+  </section>
+
+  <section id="services" class="services">
+    <h2>SERVICES PROVIDED</h2>
+    <div class="services-list">
+      <div class="services-1">
+        <p>I create high-quality websites. Contact me for collaboration.</p>
+      </div>
+      <div class="services-1">
+        <p>I create high-quality Photoshop edits.</p>
+      </div>
+      <div class="services-1">
+        <p>I create attractive PowerPoint presentations.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <h2>Contact Me</h2>
+    <form class="contact-form">
+      <input type="text" placeholder="Your Name" required />
+      <input type="email" placeholder="Your Email" required />
+      <textarea placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <footer class="footer">
+    <p>TAMANARA SATYA SAI</p>
+    <p>Ph: 6302610126</p>
+    <p>Email: tamanarasatyasai@gmail.com</p>
+    <div class="footer-ser">
+      <a href=""><img src="images/facebook.png" alt="facebook" class="footer-ser1" /></a>
+      <a href="https://www.instagram.com/uniqueboy__sai/"><img src="images/instagram1.jpg" alt="instagram" class="footer-ser1" /></a>
+      <a href="https://web.whatsapp.com/"><img src="images/whatsapp.jpg" alt="whatsapp" class="footer-ser1" /></a>
+    </div>
+  </footer>
 </body>
 </html>
+
