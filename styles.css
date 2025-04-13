@@ -20,7 +20,9 @@ header {
 .logo {
   height: 70px;
   width: 70px;
-  animation: rotate 4s linear infinite;
+}
+h2{
+  margin-top:-10px;
 }
 
 @keyframes rotate {
@@ -206,6 +208,6 @@ header {
   }
 
   .footer-ser {
-    flex-direction: column;
+    flex-direction: row;
   }
 }
